@@ -109,13 +109,6 @@ grayscale p =
   HSLA 0 0 (1-p) 1
 
 
-{-| Produce a gray based on the input. 0 is white, 1 is black.
--}
-greyscale : Float -> Color
-greyscale p =
-  HSLA 0 0 (1-p) 1
-
-
 {-| Produce a &ldquo;complementary color&rdquo;. The two colors will
 accent each other. This is the same as rotating the hue by 180&deg;.
 -}
